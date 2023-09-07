@@ -56,7 +56,7 @@ The above would be invalid Ruby, because:
 
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1688839344/sinatra-unescaped-string_wrmnbk.png)
 
-In order to have `"` within our `String`, we had to _escape_ them with a backslash. Then, Ruby knows not to terminate the `String` there, and instead treats the `"` as just another character to be included in the `String`. [We learned about this already, so hopefully it is somewhat familiar](https://learn.firstdraft.com/lessons/113#escape-characters).
+In order to have `"` within our `String`, we had to _escape_ them with a backslash. Then, Ruby knows not to terminate the `String` there, and instead treats the `"` as just another character to be included in the `String`. [We learned about this already, so hopefully it is somewhat familiar](https://learn.firstdraft.com/lessons/113-ruby-intro-printing-and-string-interpolation#escape-characters).
 
 The HTML that we want to send back in our responses is usually going to be much longer than this — dozens, hundreds, sometimes thousands of lines of HTML. Writing our HTML within a Ruby `String` literal becomes tedious quickly:
 
